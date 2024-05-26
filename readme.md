@@ -10,8 +10,11 @@ ignite chain serve
 `serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
 
 
-### adding custom query
+## adding custom query
+```
 ignite scaffold query say-hello name --response name
+```
+
 ## Testing custom query
 ```
 ignite chain serve
